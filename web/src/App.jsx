@@ -1,15 +1,11 @@
 import React from 'react'
-// import data from "../../server.mjs"
+import Weather from './weather'
 
 const App = () => {
-
-
-
   return (
     <div>
-      {/* {data.temp} */}
-
       <h1>hello</h1>
+      <Weather />
     </div>
   )
 }

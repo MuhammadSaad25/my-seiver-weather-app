@@ -3,7 +3,7 @@ console.log("i am server file");
 import express from "express";
 import path from "path";
 import cors from "cors";
-// import apiData from "./data.json"
+// import data from "./web//src/data.json"
 
 
 const app = express();
@@ -16,12 +16,9 @@ app.get("/abc", (req, res) => {
   res.send("Hello World" + new Date().toDateString());
 });
 
-app.get("/data", (req, res) => {
+app.get("/weather", (req, res) => {
   // console.log("request ip:", req.ip);
-  res.send({
-    temp:30,
-    wind:40
-  });
+  res.send("./web/build");
 });
 
 const __dirname = path.resolve();
