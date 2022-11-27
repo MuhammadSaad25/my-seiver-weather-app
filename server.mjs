@@ -11,8 +11,12 @@ app.get("/abc", (req, res) => {
   res.send("Hello World" + new Date().toDateString());
 });
 
+
 const __dirname = path.resolve();
 app.use('/', express.static(path.join(__dirname, './web/build')))
+
+
+
 
 app.use('/*', express.static(path.join(__dirname, './web/build')))
 
