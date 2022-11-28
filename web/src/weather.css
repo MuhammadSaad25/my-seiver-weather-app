@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    /* background-image: url(./immg/bg\ img.jpeg); */
+    background-color: gray;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+  }
+  
+  .nav_div {
+    display: flex;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+    border-radius: 10px;
+    color: white;
+    padding: 1em 0;
+    font-size: 24px;
+    overflow: hidden;
+  
+    height: 9%;
+    width: 100%;
+  }
+  
+  h1 {
+    margin: 10px 0px 0px 10px;
+    opacity: 0.7;
+  }
+  
+  form {
+    height: 100%;
+    width: 48%;
+  }
+  
+  .card {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .result_div {
+    /* display: none; */
+    display: flex;
+    width: 30%;
+    margin: 1rem 0 1rem 0;
+    padding: 1rem 0 1rem 1rem;
+    background: rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border-radius: 10px;
+  }
+  
+  img {
+    width: 120px;
+  }
+  
+  .temp_result {
+    font-size: 62px;
+    margin: 0.5rem 0 0 2rem;
+  }
+  
+  .sub {
+    /* display: none; */
+    display: flex;
+    width: 40%;
+    font-size: 20px;
+    margin: 1rem 0 1rem 0rem;
+    padding: 1rem 0 1rem 1rem;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border-radius: 10px;
+  }
+  
+  .right {
+    padding-left: 2rem;
+  }
+  
+  .left div {
+    margin-bottom: 1rem;
+  }
+  
+  .right div {
+    margin-bottom: 1rem;
+  }
+  
+  
+  #city {
+    margin-left: 40px;
+    padding-left: 25px;
+    margin-top: 1rem;
+    background-color: transparent;
+    height: 70%;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.7;
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+    outline: none;
+    text-transform: capitalize;
+  }
+  
+  ::placeholder {
+    color: #fff;
+    opacity: 0.7;
+  }
+  
+  #city_name,
+  #weather_condition {
+    font-size: 36px;
+  }

@@ -1,6 +1,14 @@
 [
   {
-    "temp": 30,
-    "wind": 40
+    "city":"Karachi",
+    "text":"Clear",
+    "tempC": 22,
+    "tempF": 71,
+    "ftempC": 20,
+    "ftempF": 68,
+    "humidity":83,
+    "visibility":"6KM",
+    "windKPH": 6.8,
+    "windMPH": 4.3
   }
 ]
