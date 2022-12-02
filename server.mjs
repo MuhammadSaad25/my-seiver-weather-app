@@ -15,10 +15,10 @@ app.get("/abc", (req, res) => {
   res.send("Hello World" + new Date().toDateString());
 });
 
-app.get("/weather", (req, res) => {
+app.get("/weather/:city", (req, res) => {
   // console.log("request ip:", req.ip);
   res.send({
-    city: "Karachi",
+    city: req.params.city ,
     text: "Clear",
     tempC: 22,
     tempF: 71,
